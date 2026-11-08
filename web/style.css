@@ -1,4 +1,68 @@
-:root{color-scheme:light;--bg:#f5f4f0;--ink:#202320;--muted:#73766f;--red:#d93127;--line:#dedfd7;--card:#fff;--font:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased}a{color:inherit}a:focus-visible{outline:3px solid var(--red);outline-offset:5px}.shell{max-width:1000px;margin:auto;padding:0 40px}.topbar{height:110px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-size:23px;font-weight:800;letter-spacing:-1px;text-decoration:none;display:flex;align-items:center;gap:8px}.brand-mark{color:var(--red);font-size:33px;font-style:italic;letter-spacing:-7px;margin-right:12px}.brand-dot{color:var(--red);margin-left:-7px}.channel{font-size:10px;letter-spacing:1.2px;font-weight:750;display:flex;gap:6px;align-items:center}.channel strong{background:var(--ink);color:#fff;font-size:15px;letter-spacing:0;padding:4px 7px;border-radius:4px}.intro{padding:60px 0 38px;position:relative}.eyebrow{font-size:11px;font-weight:750;letter-spacing:2px;color:var(--red);margin:0 0 20px;display:flex;align-items:center;gap:9px}.eyebrow:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--red)}h1{font-size:clamp(35px,5.5vw,60px);line-height:1.08;letter-spacing:-2.5px;max-width:800px;margin:0;font-weight:760;overflow-wrap:anywhere}.year{color:var(--muted);font-size:15px;margin:18px 0 0;letter-spacing:.2px}.schedule{display:grid;gap:20px;padding-bottom:20px}.day{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}.day-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:23px 28px;border-bottom:1px solid #eeeee9;background:#fcfcfa}.day-heading h2{font-size:17px;margin:0;font-weight:700}.date{font-size:13px;color:var(--muted)}.day.today{border-color:#d9a49e}.day.today .day-heading{box-shadow:inset 3px 0 var(--red)}.broadcasts{list-style:none;margin:0;padding:0 28px}.broadcast{display:grid;grid-template-columns:75px 1fr;align-items:center;gap:28px;min-height:74px;padding:17px 0}.broadcast+.broadcast{border-top:1px solid #eeeee9}.broadcast time{font-variant-numeric:tabular-nums;font-size:24px;letter-spacing:-1px;font-weight:680}.broadcast-label{font-size:15px;font-weight:550;border-left:1px solid var(--line);padding:5px 0 5px 25px}.broadcast.race time{color:var(--red)}.broadcast.race .broadcast-label{font-weight:750}.notice{border-radius:12px;background:#ecebe5;padding:17px 20px;line-height:1.6;font-size:14px;margin:0 0 22px;color:#55594f}.message{color:#64685f;max-width:480px;font-size:17px;line-height:1.7;margin:24px 0 50px}.update{font-size:11px;color:var(--muted);margin:2px 2px 32px}footer{border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;padding:25px 0 40px;color:var(--muted);font-size:11px;line-height:1.7}footer a{text-decoration:none;white-space:nowrap}.timezone{color:#90948b}.empty{min-height:330px}.intro:after{content:"";display:block;width:45px;height:4px;background:var(--red);margin-top:30px;border-radius:5px}
-@media(min-width:760px){.schedule{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}.day:last-child:nth-child(odd){grid-column:1/-1}.broadcast{gap:15px}.broadcast-label{padding-left:18px}.day:last-child:nth-child(odd) .broadcasts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:36px}.day:last-child:nth-child(odd) .broadcast:nth-child(2){border-top:0}}
-@media(max-width:560px){.shell{padding:0 22px}.topbar{height:84px}.brand{font-size:21px}.channel{font-size:8px;letter-spacing:.8px}.channel strong{font-size:13px}.intro{padding:43px 0 30px}h1{letter-spacing:-1.6px}.eyebrow{font-size:10px;letter-spacing:1.6px}.day-heading{padding:20px}.day-heading h2{font-size:16px}.date{font-size:12px}.broadcasts{padding:0 20px}.broadcast{gap:15px;grid-template-columns:68px 1fr;min-height:72px}.broadcast-label{padding-left:19px;font-size:15px}.broadcast time{font-size:23px}footer{display:block;padding-top:20px}footer a{display:block;margin-top:8px}.timezone{display:none}}
+:root {
+  color-scheme: dark;
+  --bg: #0B0B0C;
+  --card: #383838;
+  --ink: #D9D9D9;
+  --red: #B31917;
+  --muted: rgba(217, 217, 217, .74);
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+a:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; }
+.shell { max-width: 900px; margin: auto; padding: 0 32px; }
+.topbar { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--card); }
+.brand { display: flex; flex-direction: column; align-items: flex-start; gap: 5px; text-decoration: none; }
+.brand-name { font-size: 25px; line-height: 1.1; font-weight: 750; letter-spacing: -.7px; }
+.brand-credit { font-size: 9px; line-height: 1.5; font-weight: 600; letter-spacing: 1.8px; color: var(--muted); }
+.channel { display: flex; gap: 7px; align-items: center; font-size: 10px; letter-spacing: 1px; font-weight: 650; white-space: nowrap; }
+.channel strong { background: var(--card); color: var(--ink); font-size: 16px; letter-spacing: 0; padding: 4px 8px; border-bottom: 2px solid var(--red); }
+.intro { padding: 24px 0 18px; }
+.eyebrow { margin: 0 0 9px; color: var(--muted); font-size: 9px; line-height: 1.5; font-weight: 650; letter-spacing: 1.5px; }
+h1 { max-width: 760px; margin: 0; font-size: 24px; line-height: 1.3; letter-spacing: -.4px; font-weight: 650; overflow-wrap: anywhere; }
+.schedule { display: grid; gap: 12px; margin-bottom: 16px; }
+.day { display: grid; grid-template-columns: 172px minmax(0, 1fr); border: 1px solid var(--card); border-radius: 2px; overflow: hidden; }
+.day-heading { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; padding: 16px; background: var(--card); }
+.day-heading h2 { margin: 0; font-size: 14px; line-height: 1.3; font-weight: 650; }
+.date { color: var(--muted); font-size: 11px; line-height: 1.5; }
+.day.today { border-left: 3px solid var(--red); }
+.broadcasts { list-style: none; margin: 0; padding: 0 20px; }
+.broadcast { display: grid; grid-template-columns: 98px minmax(0, 1fr); align-items: center; gap: 18px; min-height: 64px; padding: 10px 0; }
+.broadcast + .broadcast { border-top: 1px solid var(--card); }
+.broadcast time { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; font-size: 32px; line-height: 1.2; font-weight: 750; letter-spacing: -1px; }
+.broadcast-label { border-left: 1px solid var(--card); padding: 5px 0 5px 18px; font-size: 14px; line-height: 1.4; font-weight: 450; overflow-wrap: anywhere; }
+.broadcast.race .broadcast-label { border-left: 3px solid var(--red); padding-left: 16px; font-weight: 700; }
+.notice { margin: 0 0 14px; padding: 12px 15px; border-left: 3px solid var(--red); background: var(--card); font-size: 13px; line-height: 1.6; }
+.message { max-width: 500px; margin: 18px 0 28px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+.empty { min-height: 220px; }
+.update { margin: 0 0 24px; color: var(--muted); font-size: 10px; line-height: 1.6; }
+footer { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--card); padding: 17px 0 28px; color: var(--muted); font-size: 10px; line-height: 1.7; }
+footer a { text-decoration: none; white-space: nowrap; }
+@media (max-width: 600px) {
+  .shell { padding: 0 16px; }
+  .topbar { min-height: 76px; gap: 12px; }
+  .brand-name { font-size: 23px; }
+  .brand-credit { font-size: 8px; letter-spacing: 1.5px; }
+  .channel { font-size: 8px; letter-spacing: .7px; gap: 5px; }
+  .channel strong { font-size: 14px; padding: 3px 7px; }
+  .intro { padding: 18px 0 14px; }
+  .eyebrow { font-size: 8px; margin-bottom: 7px; letter-spacing: 1.2px; }
+  h1 { font-size: 20px; line-height: 1.3; letter-spacing: -.3px; }
+  .schedule { gap: 9px; margin-bottom: 12px; }
+  .day { display: block; }
+  .day-heading { flex-direction: row; justify-content: space-between; align-items: baseline; gap: 10px; padding: 9px 13px; }
+  .day-heading h2 { font-size: 12px; }
+  .date { font-size: 10px; }
+  .broadcasts { padding: 0 13px; }
+  .broadcast { grid-template-columns: 87px minmax(0, 1fr); gap: 13px; min-height: 55px; padding: 8px 0; }
+  .broadcast time { font-size: 30px; }
+  .broadcast-label { font-size: 13px; padding-left: 13px; }
+  .broadcast.race .broadcast-label { padding-left: 11px; }
+  .update { margin-bottom: 18px; font-size: 9px; }
+  footer { gap: 12px; padding-top: 14px; font-size: 9px; }
+  .timezone { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}
