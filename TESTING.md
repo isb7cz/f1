@@ -54,3 +54,18 @@ implementován v serverovém aktualizačním vlákně. První automatické staž
 cache a výpadkové chování byly ověřeny.
 
 Veřejné nasazení nebylo provedeno.
+
+## Převod na GitHub Pages – 8. listopadu 2026
+
+- Obnovený skutečný program z Novy uložen do `web/schedule.json`.
+- 11 Python testů prošlo (včetně zachování dat při výpadku a obnovení po něm).
+- 4 Node testy prošly: dynamický výběr víkendu, noční datum/DST, sprint a studio,
+  prázdná data, zastarání a neúspěšná aktualizace.
+- Statická stránka testována bez Python aplikace pomocí běžného souborového
+  HTTP serveru pod podcestou `/web/` (stejné relativní odkazy jako `/f1/`).
+- Chromium: iPhone 390×844, iPad 768×1024, Mac 1440×1000; reálná data,
+  americké pásmo zařízení a české časy, nepublikovaný program, výpadek,
+  zastaralá data a přepnutí na další GP. Vše prošlo, bez JS chyb a přetečení.
+- `web/style.css` beze změny. Nativní Safari nebylo dodatečně testováno.
+- Automatické nasazení se musí zvlášť ověřit skutečným během GitHub Actions
+  a požadavkem na veřejnou URL; místní test sám jeho úspěch neprokazuje.

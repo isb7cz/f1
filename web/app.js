@@ -53,17 +53,20 @@ function render(data) {
   content.setAttribute('aria-busy', data.state === 'loading' ? 'true' : 'false');
 }
 let timer;
+let lastSnapshot;
 async function load() {
   clearTimeout(timer);
   let delay = 60000;
   try {
-    const response = await fetch('/api/weekend', {cache:'no-store', signal:AbortSignal.timeout(12000)});
+    const response = await fetch('./schedule.json', {cache:'no-store', signal:AbortSignal.timeout(12000)});
     if (!response.ok) throw new Error('Network error');
-    const data = await response.json();
+    const snapshot = await response.json();
+    const data = F1Schedule.select(snapshot);
+    lastSnapshot = snapshot;
     render(data);
     if (data.state === 'loading') delay = 2000;
   } catch (_) {
-    render({state:'error', message:'Program se nepodařilo načíst. Připojení ověříme znovu automaticky.'});
+    render(lastSnapshot ? {...F1Schedule.select(lastSnapshot), stale:true} : {state:'error', message:'Program se nepodařilo načíst. Připojení ověříme znovu automaticky.'});
   } finally {
     timer = setTimeout(load, delay);
   }

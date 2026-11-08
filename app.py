@@ -220,9 +220,17 @@ def make_handler(schedule):
             if path == "/api/weekend":
                 body = json.dumps(schedule.view(), ensure_ascii=False).encode()
                 content_type = "application/json; charset=utf-8"
+            elif path == "/schedule.json":
+                with schedule.lock:
+                    snapshot = {"updated_at": schedule.updated_at.isoformat() if schedule.updated_at else None,
+                                "programmes": schedule.data or [],
+                                "fetch_failed_at": datetime.now(PRAGUE).isoformat() if schedule.failed else None}
+                body = json.dumps(snapshot, ensure_ascii=False).encode()
+                content_type = "application/json; charset=utf-8"
             else:
                 files = {"/": ("index.html", "text/html; charset=utf-8"),
                          "/app.js": ("app.js", "text/javascript; charset=utf-8"),
+                         "/schedule.js": ("schedule.js", "text/javascript; charset=utf-8"),
                          "/style.css": ("style.css", "text/css; charset=utf-8"),
                          "/favicon.svg": ("favicon.svg", "image/svg+xml")}
                 if path not in files:
