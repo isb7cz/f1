@@ -1,0 +1,734 @@
+{
+  "tested_at": "2026-11-08T11:22:02.427989+01:00",
+  "source": "https://tv.nova.cz/program",
+  "channel": "Nova Sport 5",
+  "timezone": "Europe/Prague",
+  "request": {
+    "url": "https://tv.nova.cz/program",
+    "final_url": "https://tv.nova.cz/program",
+    "http_status": 200,
+    "bytes": 7102329
+  },
+  "broadcasts": [
+    {
+      "id": 263372400,
+      "start": "2026-10-26T09:00:00+01:00",
+      "end": "2026-10-26T10:15:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises USA 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises USA 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Circuit of The Americas, USA)"
+    },
+    {
+      "id": 263372403,
+      "start": "2026-10-26T10:15:00+01:00",
+      "end": "2026-10-26T11:00:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - úvodní studio 2026 Záznam studia před závodem Velké ceny USA 2026"
+    },
+    {
+      "id": 263372406,
+      "start": "2026-10-26T11:00:00+01:00",
+      "end": "2026-10-26T13:00:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises USA 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises USA 2026 Záznam závodu Velké ceny Formule 1 (Circuit of The Americas, USA)"
+    },
+    {
+      "id": 263372409,
+      "start": "2026-10-26T13:00:00+01:00",
+      "end": "2026-10-26T13:45:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - závěrečné studio 2026 Záznam studia po závodu Velké ceny USA 2026"
+    },
+    {
+      "id": 263372448,
+      "start": "2026-10-27T13:15:00+01:00",
+      "end": "2026-10-27T14:30:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises USA 2026 (3. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises USA 2026 (3. trénink) Záznam 3. tréninku na Velkou cenu Formule 1 (Circuit of The Americas, USA)"
+    },
+    {
+      "id": 263372451,
+      "start": "2026-10-27T14:30:00+01:00",
+      "end": "2026-10-27T15:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises USA 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises USA 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Circuit of The Americas, USA)"
+    },
+    {
+      "id": 263372454,
+      "start": "2026-10-27T15:45:00+01:00",
+      "end": "2026-10-27T17:55:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises USA 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises USA 2026 Záznam závodu Velké ceny Formule 1 (Circuit of The Americas, USA)"
+    },
+    {
+      "id": 263372490,
+      "start": "2026-10-28T17:00:00+01:00",
+      "end": "2026-10-28T17:45:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - úvodní studio 2026 Záznam studia před závodem Velké ceny USA 2026"
+    },
+    {
+      "id": 263372493,
+      "start": "2026-10-28T17:45:00+01:00",
+      "end": "2026-10-28T19:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises USA 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises USA 2026 Záznam závodu Velké ceny Formule 1 (Circuit of The Americas, USA)"
+    },
+    {
+      "id": 263372496,
+      "start": "2026-10-28T19:45:00+01:00",
+      "end": "2026-10-28T20:25:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - závěrečné studio 2026 Záznam studia po závodu Velké ceny USA 2026"
+    },
+    {
+      "id": 263697943,
+      "start": "2026-10-30T19:25:00+01:00",
+      "end": "2026-10-30T20:45:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (1. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Mexika 2026 (1. trénink) Přímý přenos 1. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263697961,
+      "start": "2026-10-30T22:55:00+01:00",
+      "end": "2026-10-31T00:10:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (2. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Mexika 2026 (2. trénink) Přímý přenos 2. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263697967,
+      "start": "2026-10-31T09:00:00+01:00",
+      "end": "2026-10-31T10:15:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (1. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (1. trénink) Záznam 1. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263697970,
+      "start": "2026-10-31T10:15:00+01:00",
+      "end": "2026-10-31T11:30:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (2. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (2. trénink) Záznam 2. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263697991,
+      "start": "2026-10-31T18:25:00+01:00",
+      "end": "2026-10-31T19:55:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (3. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Mexika 2026 (3. trénink) Přímý přenos 3. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263697997,
+      "start": "2026-10-31T21:55:00+01:00",
+      "end": "2026-10-31T23:20:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Mexika 2026 (kvalifikace) Přímý přenos kvalifikace na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698021,
+      "start": "2026-11-01T09:30:00+01:00",
+      "end": "2026-11-01T10:45:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (3. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (3. trénink) Záznam 3. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698024,
+      "start": "2026-11-01T10:45:00+01:00",
+      "end": "2026-11-01T12:00:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698051,
+      "start": "2026-11-01T20:00:00+01:00",
+      "end": "2026-11-01T20:50:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "live",
+      "description": "Formule 1 - úvodní studio 2026 Přímý přenos studia před závodem Velké ceny Mexika 2026"
+    },
+    {
+      "id": 263698054,
+      "start": "2026-11-01T20:50:00+01:00",
+      "end": "2026-11-01T22:50:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026",
+      "session": "race",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Mexika 2026 Přímý přenos závodu Velké ceny Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698057,
+      "start": "2026-11-01T22:50:00+01:00",
+      "end": "2026-11-01T23:35:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "live",
+      "description": "Formule 1 - závěrečné studio 2026 Přímý přenos studia po závodu Velké ceny Mexika 2026"
+    },
+    {
+      "id": 263698066,
+      "start": "2026-11-02T09:00:00+01:00",
+      "end": "2026-11-02T10:15:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (1. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (1. trénink) Záznam 1. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698069,
+      "start": "2026-11-02T10:15:00+01:00",
+      "end": "2026-11-02T11:30:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (2. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (2. trénink) Záznam 2. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698072,
+      "start": "2026-11-02T11:30:00+01:00",
+      "end": "2026-11-02T12:45:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (3. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (3. trénink) Záznam 3. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698075,
+      "start": "2026-11-02T12:45:00+01:00",
+      "end": "2026-11-02T14:00:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698078,
+      "start": "2026-11-02T14:00:00+01:00",
+      "end": "2026-11-02T14:45:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - úvodní studio 2026 Záznam studia před závodem Velké ceny Mexika 2026"
+    },
+    {
+      "id": 263698081,
+      "start": "2026-11-02T14:45:00+01:00",
+      "end": "2026-11-02T16:45:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 Záznam závodu Velké ceny Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263698084,
+      "start": "2026-11-02T16:45:00+01:00",
+      "end": "2026-11-02T17:30:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - závěrečné studio 2026 Záznam studia po závodu Velké ceny Mexika 2026"
+    },
+    {
+      "id": 263723613,
+      "start": "2026-11-03T12:00:00+01:00",
+      "end": "2026-11-03T13:15:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (2. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (2. trénink) Záznam 2. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263723616,
+      "start": "2026-11-03T13:15:00+01:00",
+      "end": "2026-11-03T14:30:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (3. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (3. trénink) Záznam 3. tréninku na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263723619,
+      "start": "2026-11-03T14:30:00+01:00",
+      "end": "2026-11-03T15:55:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263723622,
+      "start": "2026-11-03T15:55:00+01:00",
+      "end": "2026-11-03T16:35:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - úvodní studio 2026 Záznam studia před závodem Velké ceny Mexika 2026"
+    },
+    {
+      "id": 263723625,
+      "start": "2026-11-03T16:35:00+01:00",
+      "end": "2026-11-03T18:50:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 Záznam závodu Velké ceny Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263723628,
+      "start": "2026-11-03T18:50:00+01:00",
+      "end": "2026-11-03T19:15:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - závěrečné studio 2026 Záznam studia po závodu Velké ceny Mexika 2026"
+    },
+    {
+      "id": 263850698,
+      "start": "2026-11-04T11:00:00+01:00",
+      "end": "2026-11-04T11:45:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - úvodní studio 2026 Záznam studia před závodem Velké ceny Mexika 2026"
+    },
+    {
+      "id": 263850701,
+      "start": "2026-11-04T11:45:00+01:00",
+      "end": "2026-11-04T13:45:00+01:00",
+      "title": "Formule 1 - Velká cena Mexika 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Mexika 2026 Záznam závodu Velké ceny Formule 1 (Autódromo Hermanos Rodríguez, Mexiko)"
+    },
+    {
+      "id": 263850704,
+      "start": "2026-11-04T13:45:00+01:00",
+      "end": "2026-11-04T14:45:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - závěrečné studio 2026 Záznam studia po závodu Velké ceny Mexika 2026"
+    },
+    {
+      "id": 263929067,
+      "start": "2026-11-06T16:20:00+01:00",
+      "end": "2026-11-06T17:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (1. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (1. trénink) Přímý přenos 1. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929076,
+      "start": "2026-11-06T19:50:00+01:00",
+      "end": "2026-11-06T21:10:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (2. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (2. trénink) Přímý přenos 2. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929094,
+      "start": "2026-11-07T10:15:00+01:00",
+      "end": "2026-11-07T11:30:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (1. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (1. trénink) Záznam 1. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929097,
+      "start": "2026-11-07T11:30:00+01:00",
+      "end": "2026-11-07T12:55:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (2. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (2. trénink) Záznam 2. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929106,
+      "start": "2026-11-07T15:20:00+01:00",
+      "end": "2026-11-07T16:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (3. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (3. trénink) Přímý přenos 3. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929115,
+      "start": "2026-11-07T18:50:00+01:00",
+      "end": "2026-11-07T20:25:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "live",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (kvalifikace) Přímý přenos kvalifikace na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929133,
+      "start": "2026-11-08T09:00:00+01:00",
+      "end": "2026-11-08T10:15:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (3. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (3. trénink) Záznam 3. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929136,
+      "start": "2026-11-08T10:15:00+01:00",
+      "end": "2026-11-08T11:30:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929154,
+      "start": "2026-11-08T17:00:00+01:00",
+      "end": "2026-11-08T17:50:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "live",
+      "description": "Formule 1 - úvodní studio 2026 Přímý přenos studia před závodem Velké ceny Sao Paula 2026"
+    },
+    {
+      "id": 263929157,
+      "start": "2026-11-08T17:50:00+01:00",
+      "end": "2026-11-08T19:50:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026",
+      "session": "race",
+      "status": "live",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 Přímý přenos závodu Velké ceny Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929160,
+      "start": "2026-11-08T19:50:00+01:00",
+      "end": "2026-11-08T20:35:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "live",
+      "description": "Formule 1 - závěrečné studio 2026 Přímý přenos studia po závodu Velké ceny Sao Paola 2026"
+    },
+    {
+      "id": 263929172,
+      "start": "2026-11-09T09:00:00+01:00",
+      "end": "2026-11-09T10:15:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (1. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (1. trénink) Záznam 1. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929175,
+      "start": "2026-11-09T10:15:00+01:00",
+      "end": "2026-11-09T11:30:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (2. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (2. trénink) Záznam 2. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929178,
+      "start": "2026-11-09T11:30:00+01:00",
+      "end": "2026-11-09T12:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (3. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (3. trénink) Záznam 3. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929181,
+      "start": "2026-11-09T12:45:00+01:00",
+      "end": "2026-11-09T14:00:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929184,
+      "start": "2026-11-09T14:00:00+01:00",
+      "end": "2026-11-09T14:45:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - úvodní studio 2026 Záznam studia před závodem Velké ceny Sao Paula 2026"
+    },
+    {
+      "id": 263929187,
+      "start": "2026-11-09T14:45:00+01:00",
+      "end": "2026-11-09T16:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 Záznam závodu Velké ceny Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929190,
+      "start": "2026-11-09T16:45:00+01:00",
+      "end": "2026-11-09T17:30:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - závěrečné studio 2026 Záznam studia po závodu Velké ceny Sao Paola 2026"
+    },
+    {
+      "id": 263929220,
+      "start": "2026-11-10T13:00:00+01:00",
+      "end": "2026-11-10T14:15:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (1. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (1. trénink) Záznam 1. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929223,
+      "start": "2026-11-10T14:15:00+01:00",
+      "end": "2026-11-10T15:30:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (2. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (2. trénink) Záznam 2. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929226,
+      "start": "2026-11-10T15:30:00+01:00",
+      "end": "2026-11-10T16:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (3. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (3. trénink) Záznam 3. tréninku na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929229,
+      "start": "2026-11-10T16:45:00+01:00",
+      "end": "2026-11-10T18:00:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929232,
+      "start": "2026-11-10T18:00:00+01:00",
+      "end": "2026-11-10T18:45:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - úvodní studio 2026 Záznam studia před závodem Velké ceny Sao Paula 2026"
+    },
+    {
+      "id": 263929235,
+      "start": "2026-11-10T18:45:00+01:00",
+      "end": "2026-11-10T20:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 Záznam závodu Velké ceny Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929238,
+      "start": "2026-11-10T20:45:00+01:00",
+      "end": "2026-11-10T21:30:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - závěrečné studio 2026 Záznam studia po závodu Velké ceny Sao Paola 2026"
+    },
+    {
+      "id": 263929247,
+      "start": "2026-11-11T09:00:00+01:00",
+      "end": "2026-11-11T09:45:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - úvodní studio 2026 Záznam studia před závodem Velké ceny Sao Paula 2026"
+    },
+    {
+      "id": 263929250,
+      "start": "2026-11-11T09:45:00+01:00",
+      "end": "2026-11-11T11:45:00+01:00",
+      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026",
+      "session": "race",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026 Záznam závodu Velké ceny Formule 1 (Autódromo José Carlos Pace, Brazílie)"
+    },
+    {
+      "id": 263929253,
+      "start": "2026-11-11T11:45:00+01:00",
+      "end": "2026-11-11T12:30:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "replay",
+      "description": "Formule 1 - závěrečné studio 2026 Záznam studia po závodu Velké ceny Sao Paola 2026"
+    },
+    {
+      "id": 263929502,
+      "start": "2026-11-20T01:25:00+01:00",
+      "end": "2026-11-20T02:45:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (1. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 (1. trénink) Přímý přenos 1. tréninku na Velkou cenu Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929511,
+      "start": "2026-11-20T04:55:00+01:00",
+      "end": "2026-11-20T06:25:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (2. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 (2. trénink) Přímý přenos 2. tréninku na Velkou cenu Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929541,
+      "start": "2026-11-20T22:00:00+01:00",
+      "end": "2026-11-20T23:15:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (1. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 (1. trénink) Záznam 1. tréninku na Velkou cenu Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929544,
+      "start": "2026-11-20T23:15:00+01:00",
+      "end": "2026-11-21T00:30:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (2. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 (2. trénink) Záznam 2. tréninku na Velkou cenu Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929553,
+      "start": "2026-11-21T01:25:00+01:00",
+      "end": "2026-11-21T02:45:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (3. trénink)",
+      "session": "practice",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 (3. trénink) Přímý přenos 3. tréninku na Velkou cenu Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929568,
+      "start": "2026-11-21T04:55:00+01:00",
+      "end": "2026-11-21T06:15:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 (kvalifikace) Přímý přenos kvalifikace na Velkou cenu Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929613,
+      "start": "2026-11-22T00:00:00+01:00",
+      "end": "2026-11-22T01:15:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (3. trénink)",
+      "session": "practice",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 (3. trénink) Záznam 3. tréninku na Velkou cenu Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929622,
+      "start": "2026-11-22T02:45:00+01:00",
+      "end": "2026-11-22T04:00:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (kvalifikace)",
+      "session": "qualifying",
+      "status": "replay",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 (kvalifikace) Záznam kvalifikace na Velkou cenu Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929625,
+      "start": "2026-11-22T04:00:00+01:00",
+      "end": "2026-11-22T04:50:00+01:00",
+      "title": "Formule 1 - úvodní studio 2026",
+      "session": "studio",
+      "status": "live",
+      "description": "Formule 1 - úvodní studio 2026 Přímý přenos studia před závodem Velké ceny Las Vegas 2026"
+    },
+    {
+      "id": 263929628,
+      "start": "2026-11-22T04:50:00+01:00",
+      "end": "2026-11-22T06:50:00+01:00",
+      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026",
+      "session": "race",
+      "status": "live",
+      "description": "Formule 1 - Velká cena Heineken Las Vegas 2026 Přímý přenos závodu Velké ceny Formule 1 (Las Vegas Strip Circuit, Las Vegas)"
+    },
+    {
+      "id": 263929631,
+      "start": "2026-11-22T06:50:00+01:00",
+      "end": "2026-11-22T07:30:00+01:00",
+      "title": "Formule 1 - závěrečné studio 2026",
+      "session": "studio",
+      "status": "live",
+      "description": "Formule 1 - závěrečné studio 2026 Přímý přenos studia po závodu Velké ceny Las Vegas 2026"
+    }
+  ],
+  "schedule_days": [
+    "2026-10-26T05:00:00+01:00",
+    "2026-10-27T05:00:00+01:00",
+    "2026-10-28T05:00:00+01:00",
+    "2026-10-29T05:00:00+01:00",
+    "2026-10-30T05:00:00+01:00",
+    "2026-10-31T05:00:00+01:00",
+    "2026-11-01T05:00:00+01:00",
+    "2026-11-02T05:00:00+01:00",
+    "2026-11-03T05:00:00+01:00",
+    "2026-11-04T05:00:00+01:00",
+    "2026-11-05T05:00:00+01:00",
+    "2026-11-06T05:00:00+01:00",
+    "2026-11-07T05:00:00+01:00",
+    "2026-11-08T05:00:00+01:00",
+    "2026-11-09T05:00:00+01:00",
+    "2026-11-10T05:00:00+01:00",
+    "2026-11-11T05:00:00+01:00",
+    "2026-11-12T05:00:00+01:00",
+    "2026-11-13T05:00:00+01:00",
+    "2026-11-14T05:00:00+01:00",
+    "2026-11-15T05:00:00+01:00",
+    "2026-11-16T05:00:00+01:00",
+    "2026-11-17T05:00:00+01:00",
+    "2026-11-18T05:00:00+01:00",
+    "2026-11-19T05:00:00+01:00",
+    "2026-11-20T05:00:00+01:00",
+    "2026-11-21T05:00:00+01:00",
+    "2026-11-22T05:00:00+01:00"
+  ],
+  "all_programme_count": 369,
+  "observed_programme_range": {
+    "first_start": "2026-10-26T09:00:00+01:00",
+    "last_start": "2026-11-23T02:15:00+01:00",
+    "last_end": "2026-11-23T05:45:00+01:00"
+  }
+}
