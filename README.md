@@ -38,13 +38,13 @@ plánu v **00:17, 06:17, 12:17 a 18:17 UTC**. GitHub může plánované úlohy
 zpozdit; nejde o přesný časový SLA. Na otevřené stránce se data znovu kontrolují
 každou minutu a při návratu na kartu.
 
-1. Python na runneru načte oficiální Novu, stejně jako při průzkumu v `research/`.
+1. Python na runneru nejprve načte oficiální Novu, stejně jako při průzkumu v `research/`. Pokud Nova požadavek odmítne, použije dříve ověřený veřejný program Seznamu pro tutéž stanici; skutečný zdroj je uveden na stránce.
 2. Uloží pouze potvrzené živé F1 přenosy do `web/schedule.json` a zapíše data
    do `main`. Nepřevádí do veřejných souborů nesouvisející obsah stránky Novy.
 3. Nahraje obsah `web/` do GitHub Pages. Veřejná aplikace je čistě statická:
    HTML, CSS, JavaScript a JSON, bez Python serveru, databáze a API klíčů.
 
-Při výpadku Novy se zachovají poslední platná data včetně původního času ověření,
+Při výpadku obou zdrojů se zachovají poslední platná data včetně původního času ověření,
 přidá se příznak neúspěšné aktualizace a stránka ukáže varování. Starší data
 se označují také automaticky po 12 hodinách, i pokud Actions přestanou běžet.
 Při selhání nasazení zůstává online předchozí úspěšná verze.
@@ -85,6 +85,8 @@ Volitelné prohlížečové testy (vývojová závislost Playwright):
 Nova neposkytuje pro použitou strukturu garantované API. Její změna může
 vyžadovat opravu parseru. Pozorovaný rozsah programu byl přibližně 14 dní
 napřed, nikoli garantovaná lhůta. Novu kontaktuje jen GitHub runner čtyřikrát
-denně a při nasazení změn; zařízení návštěvníků žádné požadavky na Novu neposílají.
+denně a při nasazení změn. Při odmítnutí používá záložní Seznam, maximálně
+20 jednoduchých požadavků za běh s prodlevami. Zařízení návštěvníků žádné
+požadavky na televizní zdroje neposílají.
 Zdroj je uveden na stránce. Podmínky veřejného přebírání programu tímto
 technickým řešením nejsou zaručeny.

@@ -8,13 +8,23 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from app import PRAGUE, fetch_nova, instant
+from scripts.seznam_backup import fetch_seznam
 
 
-def update(path, fetcher=fetch_nova):
+def fetch_sources():
+    try:
+        return fetch_nova(), 'https://tv.nova.cz/program'
+    except Exception:
+        logging.warning('Nova unavailable from runner; trying the verified Seznam TV backup', exc_info=True)
+        return fetch_seznam(), 'https://tv.seznam.cz/'
+
+
+def update(path, fetcher=None):
     path = Path(path)
     now = datetime.now(PRAGUE).isoformat()
     try:
-        snapshot = {"updated_at": now, "programmes": fetcher(), "fetch_failed_at": None}
+        rows, source = fetch_sources() if fetcher is None else (fetcher(), 'https://tv.nova.cz/program')
+        snapshot = {"updated_at": now, "programmes": rows, "fetch_failed_at": None, "source":source}
     except Exception:
         logging.exception("Nova update failed; retaining last successful snapshot")
         # No seed from research or fabricated dates. A missing/corrupt fallback

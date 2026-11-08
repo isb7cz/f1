@@ -7,6 +7,10 @@ function el(tag, className, text) {
   return node;
 }
 function render(data) {
+  const sourceLink = document.querySelector('footer a');
+  const backup = data.source === 'https://tv.seznam.cz/';
+  sourceLink.href = backup ? data.source : 'https://tv.nova.cz/program';
+  sourceLink.textContent = backup ? 'Zdroj: Seznam TV ↗' : 'Zdroj: TV Nova ↗';
   const fragment = document.createDocumentFragment();
   const intro = el('section', 'intro');
   intro.append(el('p', 'eyebrow', 'FORMULE 1 · ŽIVÉ PŘENOSY'));

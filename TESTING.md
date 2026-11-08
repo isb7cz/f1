@@ -69,3 +69,12 @@ Veřejné nasazení nebylo provedeno.
 - `web/style.css` beze změny. Nativní Safari nebylo dodatečně testováno.
 - Automatické nasazení se musí zvlášť ověřit skutečným během GitHub Actions
   a požadavkem na veřejnou URL; místní test sám jeho úspěch neprokazuje.
+
+## Skutečné nasazení a záložní zdroj
+
+GitHub Pages byly zapnuty vlastníkem a první nasazení proběhlo úspěšně.
+Z GitHub runneru Nova odpovídá HTTP 403, i s úplnými běžnými hlavičkami;
+blokování neobcházíme. Přidán dříve ověřený Seznam jako automatická záloha
+s příznakem live a odkazem na skutečný zdroj. Při selhání obou zdrojů zůstává
+poslední platný JSON s varováním. Tato větev je pokryta dvěma dalšími testy
+(celkem 13 Python testů a 4 Node testy).

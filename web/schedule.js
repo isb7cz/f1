@@ -48,7 +48,7 @@
       }
       result = {state:'ready', title:chosen.name, days:[...days.values()], partial:!chosen.races.length};
     }
-    return {...result, updated_at:snapshot.updated_at, source:'https://tv.nova.cz/program', stale:!!snapshot.fetch_failed_at || now.getTime()-Date.parse(snapshot.updated_at)>12*60*60*1000};
+    return {...result, updated_at:snapshot.updated_at, source:snapshot.source === 'https://tv.seznam.cz/' ? snapshot.source : 'https://tv.nova.cz/program', stale:!!snapshot.fetch_failed_at || now.getTime()-Date.parse(snapshot.updated_at)>12*60*60*1000};
   }
   const api = {select, dateKey};
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
