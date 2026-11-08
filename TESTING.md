@@ -78,3 +78,20 @@ blokování neobcházíme. Přidán dříve ověřený Seznam jako automatická 
 s příznakem live a odkazem na skutečný zdroj. Při selhání obou zdrojů zůstává
 poslední platný JSON s varováním. Tato větev je pokryta dvěma dalšími testy
 (celkem 13 Python testů a 4 Node testy).
+
+## Veřejná URL ověřena
+
+Funkční veřejná adresa: https://isb7cz.github.io/f1/.
+Běh Actions 42485762385 skončil úspěšně, včetně testů, aktualizace dat,
+zápisu do hlavní větve a nasazení Pages. Veřejný JSON měl čas ověření
+8. 11. 2026 14:36 českého času, zdroj Seznam a žádný příznak neúspěšného načtení.
+Tím je doloženo získávání dat přímo na GitHub runneru, nezávisle na Macu.
+
+Prohlížečové testy byly spuštěny také proti skutečné veřejné URL:
+iPhone/iPad/Mac rozměry prošly, včetně reálných časů, chybových stavů,
+zastarání a změny víkendu. V cloudovém testovacím Chromiu nefungovalo přímé
+převzetí CA cloudové proxy. Použit byl proto testovací přepínač
+`F1_TEST_TRUSTED_TRANSPORT=1`: skutečné HTTPS odpovědi z veřejných Pages
+načetl urllib s plným ověřením TLS a dodanou důvěrou platformy, poté je
+vykreslilo Chromium. Ověřování certifikátů nebylo vypnuto. Tento přepínač
+je pouze v testovacím skriptu, veřejná aplikace používá normální HTTPS.
