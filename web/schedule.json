@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026-11-11T20:07:49.352454+01:00",
+  "updated_at": "2026-11-12T02:23:25.698038+01:00",
   "programmes": [
-    {
-      "title": "Formule 1 - úvodní studio 2026",
-      "start": "2026-11-08T17:00:00+01:00",
-      "end": "2026-11-08T17:50:00+01:00",
-      "kind": "intro",
-      "grand_prix": null
-    },
-    {
-      "title": "Formule 1 - Velká cena MSC Cruises Sao Paula 2026",
-      "start": "2026-11-08T17:50:00+01:00",
-      "end": "2026-11-08T19:50:00+01:00",
-      "kind": "race",
-      "grand_prix": "Velká cena MSC Cruises Sao Paula 2026"
-    },
     {
       "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (1. trénink)",
       "start": "2026-11-20T01:25:00+01:00",
