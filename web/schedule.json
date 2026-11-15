@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T20:03:34.959890+01:00",
+  "updated_at": "2026-11-15T02:16:51.392411+01:00",
   "programmes": [
     {
       "title": "Formule 1 - Velká cena Heineken Las Vegas 2026 (1. trénink)",
@@ -42,8 +42,50 @@
       "end": "2026-11-22T06:50:00+01:00",
       "kind": "race",
       "grand_prix": "Velká cena Heineken Las Vegas 2026"
+    },
+    {
+      "title": "Formule 1 - Velká cena Qatar Airways Kataru 2026 (1. trénink)",
+      "start": "2026-11-27T14:25:00+01:00",
+      "end": "2026-11-27T15:55:00+01:00",
+      "kind": "practice",
+      "grand_prix": "Velká cena Qatar Airways Kataru 2026"
+    },
+    {
+      "title": "Formule 1 - Velká cena Qatar Airways Kataru 2026 (2. trénink)",
+      "start": "2026-11-27T17:55:00+01:00",
+      "end": "2026-11-27T19:15:00+01:00",
+      "kind": "practice",
+      "grand_prix": "Velká cena Qatar Airways Kataru 2026"
+    },
+    {
+      "title": "Formule 1 - Velká cena Qatar Airways Kataru 2026 (3. trénink)",
+      "start": "2026-11-28T15:25:00+01:00",
+      "end": "2026-11-28T16:45:00+01:00",
+      "kind": "practice",
+      "grand_prix": "Velká cena Qatar Airways Kataru 2026"
+    },
+    {
+      "title": "Formule 1 - Velká cena Qatar Airways Kataru 2026 (kvalifikace)",
+      "start": "2026-11-28T18:55:00+01:00",
+      "end": "2026-11-28T20:15:00+01:00",
+      "kind": "qualifying",
+      "grand_prix": "Velká cena Qatar Airways Kataru 2026"
+    },
+    {
+      "title": "Formule 1 - úvodní studio 2026",
+      "start": "2026-11-29T16:00:00+01:00",
+      "end": "2026-11-29T16:50:00+01:00",
+      "kind": "intro",
+      "grand_prix": null
+    },
+    {
+      "title": "Formule 1 - Velká cena Qatar Airways Kataru 2026",
+      "start": "2026-11-29T16:50:00+01:00",
+      "end": "2026-11-29T18:50:00+01:00",
+      "kind": "race",
+      "grand_prix": "Velká cena Qatar Airways Kataru 2026"
     }
   ],
-  "fetch_failed_at": "2026-11-14T19:54:30.595540+01:00",
+  "fetch_failed_at": null,
   "source": "https://tv.seznam.cz/"
 }
