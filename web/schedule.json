@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026-11-25T20:04:17.301364+01:00",
+  "updated_at": "2026-11-26T02:28:40.055099+01:00",
   "programmes": [
-    {
-      "title": "Formule 1 - úvodní studio 2026",
-      "start": "2026-11-22T04:00:00+01:00",
-      "end": "2026-11-22T04:50:00+01:00",
-      "kind": "intro",
-      "grand_prix": null
-    },
-    {
-      "title": "Formule 1 - Velká cena Heineken Las Vegas 2026",
-      "start": "2026-11-22T04:50:00+01:00",
-      "end": "2026-11-22T06:50:00+01:00",
-      "kind": "race",
-      "grand_prix": "Velká cena Heineken Las Vegas 2026"
-    },
     {
       "title": "Formule 1 - Velká cena Qatar Airways Kataru 2026 (1. trénink)",
       "start": "2026-11-27T14:25:00+01:00",
